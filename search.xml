@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/09/01/hello-world/</url>
+    <content><![CDATA[<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">cout &lt;&lt; <span class="string">&quot;Hello World&quot;</span>;</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+</search>
