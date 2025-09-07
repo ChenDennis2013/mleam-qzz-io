@@ -10,4 +10,27 @@
 <p>wowowow</p>
 <img src="/img/84bfd44d.png" width="100px">]]></content>
   </entry>
+  <entry>
+    <title>论g++的神秘小错误</title>
+    <url>/2025/09/07/%E8%AE%BAg-%E7%9A%84%E7%A5%9E%E7%A7%98%E5%B0%8F%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<h2 id="collect2exe-error-ld-returned-1-exit-status"><a class="markdownIt-Anchor" href="#collect2exe-error-ld-returned-1-exit-status"></a> <code>collect2.exe: error: ld returned 1 exit status</code></h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">collect2.exe: error: ld returned 1 exit status</span><br></pre></td></tr></table></figure>
+<p>多出现于本地运行。</p>
+<h3 id="解决方案"><a class="markdownIt-Anchor" href="#解决方案"></a> 解决方案</h3>
+<p>将正在运行中的程序关掉即可，直接关掉或从任务管理器关掉皆可。</p>
+<h2 id="nothing-is-compiled-output-exceeds"><a class="markdownIt-Anchor" href="#nothing-is-compiled-output-exceeds"></a> <code>Nothing is compiled: OUTPUT exceeds.</code></h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Nothing is compiled: OUTPUT exceeds.</span><br></pre></td></tr></table></figure>
+<p>多出现于OJ。</p>
+<h3 id="形成原因"><a class="markdownIt-Anchor" href="#形成原因"></a> 形成原因</h3>
+<p>结构体/类中含有变量初始值，同时使用这个结构体/类建造了一个比较大的数组，导致编译出的可执行文件超出OJ的预设空间。</p>
+<h3 id="解决方案-2"><a class="markdownIt-Anchor" href="#解决方案-2"></a> 解决方案</h3>
+<p>将结构体/类中的初始化移到函数里即可。</p>
+<h2 id="后记"><a class="markdownIt-Anchor" href="#后记"></a> 后记</h2>
+<p>如果有问题/补充，欢迎在下方讨论区提出。</p>
+]]></content>
+      <tags>
+        <tag>cpp</tag>
+        <tag>编译</tag>
+      </tags>
+  </entry>
 </search>
